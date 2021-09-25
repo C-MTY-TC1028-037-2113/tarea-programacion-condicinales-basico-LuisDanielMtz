@@ -2,7 +2,9 @@
 def main():
     edad = int(input("Ingresa tu edad: "))
     #Aquí empieza tu programa...
-    if edad <18:
+    if edad ==0:
+        print("Respuesta incorrecta")
+    elif edad <18:
        print( "No cumples requisitos") 
     else:
         id_oficial = input("¿Tienes identificación oficial? (s/n): " ).lower()
