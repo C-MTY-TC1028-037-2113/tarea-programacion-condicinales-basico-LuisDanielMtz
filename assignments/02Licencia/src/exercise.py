@@ -5,7 +5,7 @@ def main():
     if edad <18:
        print( "No cumples requisitos") 
     else:
-        id_oficial = input("¿Tienes identificación oficial? (s/n):" ).lower()
+        id_oficial = input("¿Tienes identificación oficial? (s/n): " ).lower()
         if id_oficial == "s":
             print("Trámite de licencia concedido")
         elif id_oficial=="n":
