@@ -2,7 +2,7 @@ def main():
     #escribe tu código abajo de esta línea
     peso = float(input("Peso en kg: "))
     Altura =float(input("Altura en m: "))
-    if peso == 0 or Altura == 0:
+    if peso <= 0 or Altura <= 0:
         print ("Revisa tus datos, alguno de ellos es erróneo.")
     else :
         imc=peso/ Altura**2
