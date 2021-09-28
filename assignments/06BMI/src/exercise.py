@@ -13,7 +13,7 @@ def main():
         elif 25 <= imc < 30:
             print("SOBREPESO")
         elif 30 <= imc < 40:
-            print("SOBREPESO")
+            print("OBESIDAD")
         else:
             print("OBESIDAD MORBIDA")
 
